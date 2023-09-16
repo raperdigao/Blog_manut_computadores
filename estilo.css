@@ -53,7 +53,7 @@ header {
     display: flex;
     flex-direction: row;
 
-    width: 1400px;
+    width: 1200px;
     justify-content: flex-end;
     align-items: flex-end;
 
@@ -64,7 +64,7 @@ header {
     justify-content: flex-end;
     width: 200px;
     align-items: center;
-    gap: 100px;
+    gap: 20px;
     list-style: none;
     color: #c2c2c2;
 
@@ -90,14 +90,14 @@ header {
 
 }
 
-.menu-navegacao li a:hover{
+.menu-navegacao li a:hover {
     color: lightcoral;
     transition: 0.5s;
 }
 
 /* Estilização do Banner */
 
-.banner{
+.banner {
     background-image: url(Imagens/Banner.jpg);
     height: 580px;
     background-repeat: no-repeat;
@@ -106,3 +106,79 @@ header {
 
 }
 
+.info-card {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+
+}
+
+.info-card img {
+    width: 450px;
+    border-radius: 20px;
+
+}
+
+.info-card h1 {
+
+    margin-top: 10px;
+    padding: 6px;
+    width: 450px;
+    text-align: center;
+    font-family: var(--jose);
+    font-size: 24px;
+    font-weight: 900px;
+    letter-spacing: 2px;
+    color: #8c2f39;
+}
+
+.info-card p {
+
+    margin-top: 10px;
+    padding: 6px;
+    width: 450px;
+    font-family: var(--space);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 900px;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: 2px solid #28464B;
+    border-radius: 20px;
+}
+
+/* Estilização do Footer */
+footer {
+    background-image: linear-gradient(90deg, rgba(152, 220, 224, 0.00) 0.99%, rgba(190, 216, 220, 0.51) 1%, #28464B 98.44%);
+    height: 60px;
+
+   
+}
+
+.paragrafo-footer{
+
+    text-align: center;
+    font-family: var(--space);
+    font-size: 16px;
+    font-weight: 900px;
+    letter-spacing: 2px;
+}
+
+.topo img{
+    height: 30px;
+}
+.topo{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 250px;
+    
+    
+    
+}
