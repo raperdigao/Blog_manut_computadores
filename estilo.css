@@ -99,5 +99,10 @@ header {
 
 .banner{
     background-image: url(Imagens/Banner.jpg);
-    
+    height: 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
 }
+
