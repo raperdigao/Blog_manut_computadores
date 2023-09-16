@@ -18,19 +18,86 @@
     --jose: 'Josefin Sans', sans-serif;
     --space: 'Space Grotesk', sans-serif;
 }
-.container-grid{
+
+.container-grid {
     width: 90%;
     margin: 0 auto;
     max-width: 1400px;
 
 }
 
-.header-flex{
+html {
+    /* quando clica no link com a ID ele desce mais suave */
+    scroll-behavior: smooth;
+
+}
+
+header {
+    background-image: linear-gradient(90deg, rgba(152, 220, 224, 0.00) 0.99%, rgba(190, 216, 220, 0.51) 1%, #28464B 98.44%);
+    height: 130px;
+
+
+}
+
+.header-flex {
     display: flex;
 }
 
-.imagem-logo{
+.imagem-logo {
     width: 145px;
     height: 120px;
 
+}
+
+.links-header {
+    display: flex;
+    flex-direction: row;
+
+    width: 1400px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.menu-navegacao {
+    display: flex;
+    justify-content: flex-end;
+    width: 200px;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+    color: #c2c2c2;
+
+
+}
+
+
+.menu-navegacao li {
+
+    font-size: var(--jose);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900px;
+    font-style: italic;
+
+
+
+}
+
+.menu-navegacao li a {
+    text-decoration: none;
+    color: #c2c2c2;
+
+}
+
+.menu-navegacao li a:hover{
+    color: lightcoral;
+    transition: 0.5s;
+}
+
+/* Estilização do Banner */
+
+.banner{
+    background-image: url(Imagens/Banner.jpg);
+    
 }
