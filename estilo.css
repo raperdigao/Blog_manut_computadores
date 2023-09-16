@@ -109,7 +109,12 @@ header {
 
 /* Estilização dos Cards */
 
-
+.coracao{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    align-self: flex-end;
+}
 .info-card {
     margin-top: 10px;
     display: flex;
