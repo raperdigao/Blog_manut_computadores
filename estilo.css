@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Space+Grotesk:wght@500&family=Trispace&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+:root {
+    --marrom: #461220;
+    --vermelho: #8c2f39;
+    --cinza: #c2c2c2;
+    --lilas: #b23a48;
+    --Verde: #28464b;
+    --jose: 'Josefin Sans', sans-serif;
+    --space: 'Space Grotesk', sans-serif;
+}
