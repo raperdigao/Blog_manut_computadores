@@ -18,3 +18,19 @@
     --jose: 'Josefin Sans', sans-serif;
     --space: 'Space Grotesk', sans-serif;
 }
+.container-grid{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1400px;
+
+}
+
+.header-flex{
+    display: flex;
+}
+
+.imagem-logo{
+    width: 145px;
+    height: 120px;
+
+}
