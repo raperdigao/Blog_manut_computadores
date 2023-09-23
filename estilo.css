@@ -314,7 +314,7 @@ footer {
     padding: 6px;
     width: 100%;
     border-radius: 20px;
-    padding: 6px;
+    padding: 12px;
 
 }
 
@@ -323,9 +323,9 @@ footer {
     font-family: var(--jose);
     font-size: 26px;
     font-weight: 900px;
-    padding: 6px;
+    padding: 12px;
     border-radius: 20px;
-    padding: 6px;
+   
 
 }
 
