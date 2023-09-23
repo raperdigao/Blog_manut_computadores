@@ -271,12 +271,21 @@ footer {
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 580px;
+    
     
 }
 
 .paragrafo-contato h1 {
     border: 2px solid black;
+    height: 494px;
+    text-align: justify;
+    padding-top: 60px;
+    font-family: var(--jose);
+    font-weight: 800px;
+    font-size: 26px;
+    letter-spacing: 2px;
+
+
 }
 
 .form-flex{
