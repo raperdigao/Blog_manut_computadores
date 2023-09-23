@@ -262,7 +262,6 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px solid black;
     height: 980px;
 
 }
@@ -271,12 +270,12 @@ footer {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
-    
+
+
 }
 
 .paragrafo-contato h1 {
-    border: 2px solid black;
+
     height: 494px;
     text-align: justify;
     padding-top: 60px;
@@ -288,10 +287,11 @@ footer {
 
 }
 
-.form-flex{
-    border: 2px solid black;
+.form-flex {
+
     width: 550px;
 }
+
 .info-contato label {
     display: flex;
     flex-direction: column;
@@ -317,7 +317,7 @@ footer {
 
 }
 
-.info-contato textarea{
+.info-contato textarea {
     width: 100%;
     font-family: var(--jose);
     font-size: 26px;
@@ -328,7 +328,7 @@ footer {
 
 }
 
-.info-contato button{
+.info-contato button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,5 +342,5 @@ footer {
     background-color: var(--Verde);
     color: white;
 
-    
+
 }
