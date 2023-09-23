@@ -255,13 +255,52 @@ footer {
     letter-spacing: 2px;
     font-size: 36px;
 
-    }
-.contato {
+}
+
+.info-contato {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    border: 2px solid black;
+    height: 880px;
 
 }
 
+.paragrafo-contato {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 580px;
+    
+}
 
+.paragrafo-contato h1 {
+    border: 2px solid black;
+}
+
+.form-flex{
+    border: 2px solid black;
+    width: 550px;
+}
+.info-contato label {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--jose);
+    font-size: 26px;
+    font-weight: 900px;
+    padding: 6px;
+
+
+
+}
+
+.info-contato input {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--jose);
+    font-size: 26px;
+    font-weight: 900px;
+    padding: 6px;
+
+}
