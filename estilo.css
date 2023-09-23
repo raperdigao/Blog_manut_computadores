@@ -263,7 +263,7 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     border: 2px solid black;
-    height: 880px;
+    height: 980px;
 
 }
 
@@ -311,5 +311,36 @@ footer {
     font-size: 26px;
     font-weight: 900px;
     padding: 6px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 6px;
 
+}
+
+.info-contato textarea{
+    width: 100%;
+    font-family: var(--jose);
+    font-size: 26px;
+    font-weight: 900px;
+    padding: 6px;
+    border-radius: 20px;
+    padding: 6px;
+
+}
+
+.info-contato button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 47px;
+    margin-left: 25px;
+    font-family: var(--jose);
+    font-weight: 750px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: var(--Verde);
+    color: white;
+
+    
 }
